@@ -76,8 +76,11 @@ header img {
     background-color: #a46633;
     color: #ffffff;
     text-align: center;
-    padding: 1em;
+    padding: .5em;
     border: 1px solid #8D9981;
+  }
+  div {
+    display: inline;
   }
   footer a {
     color: #ffffff;
@@ -85,4 +88,3 @@ header img {
   footer a:hover {
     color: #8D9981;
   }
-  
