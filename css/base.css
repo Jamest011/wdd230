@@ -10,7 +10,7 @@ body{
 }
 
 header {
-    border: 1px solid #a46633;
+    border: 1px solid #8D9981;
     padding: .5rem;
     background-color: #a46633;
     display: grid;
@@ -21,7 +21,7 @@ header {
 header img {
     width: 100%;
     height: 100%;
-    border: 1px solid #a46633;
+    border: 1px solid #8D9981;
 }
 
   main a {
@@ -30,18 +30,18 @@ header img {
   }
   
   main a:hover {
-    color: #b2c2a4;
+    color: #a46633;
   }
   
   header {
     padding: 1rem;
-    background-color: #b2c2a4;
+    background-color: #a46633;
   }
   
   main {
     display: grid;
     padding: 1rem;
-    background-color: #a46633;
+    background-color: #8D9981;
   }
   
   ul {
@@ -73,16 +73,16 @@ header img {
   
   footer {
     font-size: 1.2em;
-    background-color: #b2c2a4;
+    background-color: #a46633;
     color: #ffffff;
     text-align: center;
     padding: 1em;
-    border: 1px solid #a46633;
+    border: 1px solid #8D9981;
   }
   footer a {
     color: #ffffff;
   }
   footer a:hover {
-    color: #a46633;
+    color: #8D9981;
   }
   
