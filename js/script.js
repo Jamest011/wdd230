@@ -1,4 +1,4 @@
-// Current Year
+// Update Current Year
 document.getElementById("currentYear").innerHTML = new Date().getFullYear()
-// Last Modified
+// Update Last Modified
 document.getElementById("lastUpdated").innerHTML = document.lastModified;
