@@ -5,6 +5,7 @@ html {
 body{
     margin: 0 auto;
     font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
     line-height: 1em;
     width: 750px;
 }
@@ -33,7 +34,6 @@ header img {
     color: #FF1C1C;
   }
   main {
-    display: grid;
     padding: 1rem;
     background-color: #686C63;
   }
@@ -41,7 +41,6 @@ header img {
   ul {
     width: 500px;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
   }
   
   h1 {
@@ -49,7 +48,6 @@ header img {
     margin: 0.67em 0;
     color: #ffffff;
     text-align: center;
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
   }
   
@@ -57,7 +55,6 @@ header img {
     font-size: 1.5em;
     text-align: center;
     color: #ffffff;
-    font-family: "Roboto", sans-serif;
   }
   hr {
     color: #ffffff;
