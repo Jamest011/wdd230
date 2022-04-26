@@ -21,7 +21,7 @@ header {
 header img {
     width: 100%;
     height: 100%;
-    border: 1px solid #747B6D;
+    border: 1px solid #686C63;
 }
 
   main a {
@@ -30,12 +30,12 @@ header img {
   }
   
   main a:hover {
-    color: #a46633;
+    color: #FF1C1C;
   }
   main {
     display: grid;
     padding: 1rem;
-    background-color: #747B6D;
+    background-color: #686C63;
   }
   
   ul {
@@ -71,7 +71,7 @@ header img {
     color: #ffffff;
     text-align: center;
     padding: .5em;
-    border: 1px solid #747B6D;
+    border: 1px solid #686C63;
   }
   div {
     display: inline;
@@ -80,5 +80,5 @@ header img {
     color: #ffffff;
   }
   footer a:hover {
-    color: #747B6D;
+    color: #686C63;
   }
