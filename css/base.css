@@ -43,6 +43,10 @@ ul {
   width: 500px;
   color: #ffffff;
 }
+
+li {
+  margin: 10px;
+}
   
 h1 {
   font-size: 3.0em;
