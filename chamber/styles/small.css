@@ -121,15 +121,13 @@ footer {
 .logo {
 	display: flex;
 	align-items: center;
-    font-family: 'Teko';
     font-size: 1rem;
 }
 
 .social img {
-    width: 20px;
-    height: auto;
-    border-radius: 100%;
-    margin: 5px;
+    width: 48px;
+    height: 48px;
+    margin: 1px;
 }
 
 .social {
@@ -171,17 +169,17 @@ footer .name {
 .contact {
     padding: 1.5rem;
     float: right;
-    font-family: 'Roboto Flex', sans-serif;
     font-size: 1rem;
 }
 
 footer .contact a {
     text-decoration: none;
-    color: #F0EBD8;
+    color: #fff;
     padding: 1rem;
 }
 
 footer .contact a:hover {
     color: #fff;
     background-color: #000;
+    border-radius: 10px;
 }
