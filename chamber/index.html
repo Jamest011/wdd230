@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Home page for the Geary Chamber of Commerce."/>
+    <title>Geary Chamber of Commerce | Homepage</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <picture>
+                <a href='index.html'><img src="images/geary_logo.png" alt="Geary Logo"></a>
+            </picture>
+            <section class="name">
+                <h1>Geary</h1>
+                <span>Chamber of Commerce</span>
+            </section>
+        </div>
+        <nav>
+        <button id="hamburgerBtn">&#9776;</button>
+            <ul id="navigation">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>    
+        </nav>
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook_icon.png" alt="Facebook"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin_icon.png" alt="LinkedIn"></a>
+        </div> 
+        <p id="currentDate"></p>
+    </header>
+    <main>
+        <div class="placeholder-box-hero">Hero with site name and call to action</div>
+        <article class="placeholder-box-news">News Release</article>
+        <div class="placeholder-box-event">Event</div>
+        <div class="placeholder-box-weather">Weather</div>
+        <div class="placeholder-box-join">Join</div>
+
+        <div class="placeholder spotlight">
+            <div class="placeholder-spot">Spotlight 1</div>
+            <div class="placeholder-spot">Spotlight 2</div>
+            <div class="placeholder-spot">Spotlight 3</div>
+        </div>
+    </main>
+    <footer>
+        <div class="footLogo">
+            <picture>
+                <img src="images/geary_logo.png" alt="geary chamber logo">
+            </picture>
+            <section class="name">
+                <h1>Geary Chamber of Commerce</h1>
+                <p>118 W Main St</p>
+                <p>Geary, OK 73040</p>
+            </section>
+            <section class="contact">
+                <p>info@gearychamber.com</p>
+                <p>+1 (405) 297-5555</p> <br>
+                <a href="https://maps.google.com">📍 Location Map</a>
+            </section>
+        </div>
+        <hr>
+        <p>&copy; <span id="currentYear"></span> Geary Chamber | James Thomas | WDD 230 Project | Last Modification: <a id="lastUpdated"></a></p>
+    </footer>
+    <script src="scripts/jscripts.js"></script>
+</body>
+</html>

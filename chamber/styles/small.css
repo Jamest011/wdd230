@@ -1,0 +1,187 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+header {
+    background-color: #A46633;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    color: #fff;
+}
+nav button {
+    font-size: 2rem;
+    background-color: transparent;
+    border-radius: 10px;
+    width: 95%;
+    color: white;
+    border-color: #fff;
+}
+
+nav {
+	margin: 0 auto;
+    width: 12rem;
+    grid-column: 3/4;
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color:#fff;
+    width: 75%;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0,0,0.75);
+    border-radius: 10px;
+}
+
+nav ul li.active a{
+    background-color: rgba(0, 0,0,0.50);
+    border-radius: 10px;
+    width: 75%;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#currentDate {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: #686C63;
+    padding: 25px;
+}
+
+.name h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 440px;
+    background-color: #DFD0BF;
+}
+
+.placeholder-box-hero, .placeholder-box-news, .placeholder-box-event, .placeholder-box-weather, .placeholder-box-join {
+    height: 200px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #A46633;
+    color: white;
+}
+
+.placeholder {
+    display: grid;
+    grid-template-rows: 200px 200px;
+    margin: 1rem;
+    padding: .25rem;
+    background-color: #A46633;
+}
+
+.placeholder-spot {
+    background-color: #686C63;
+    margin: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.placeholder-box-join {
+    display: none;
+}
+
+.placeholder-spot:nth-child(3) {
+    display: none;
+}
+
+footer {
+    background-color: #A46633;
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+}
+
+.logo img {
+	width: 100px;
+	height: auto;
+    padding: 1.5rem;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+    font-family: 'Teko';
+    font-size: 1rem;
+}
+
+.social img {
+    width: 20px;
+    height: auto;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.social {
+    margin: 0 auto;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+footer img {
+    width: 100px;
+}
+
+footer .name {
+    text-align: left;
+    font-size: 1rem;
+}
+
+footer h1, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.footLogo {
+    display: flex;
+    align-items: center;
+}
+
+footer .name {
+    font-family: 'Teko';
+    font-size: .75rem;
+}
+
+.footLogo img {
+	width: 100px;
+	height: auto;
+    padding: 1.5rem;
+}
+
+.contact {
+    padding: 1.5rem;
+    float: right;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1rem;
+}
+
+footer .contact a {
+    text-decoration: none;
+    color: #F0EBD8;
+    padding: 1rem;
+}
+
+footer .contact a:hover {
+    color: #fff;
+    background-color: #000;
+}
