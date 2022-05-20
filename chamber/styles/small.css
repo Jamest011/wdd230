@@ -181,3 +181,22 @@ footer .contact a:hover {
     background-color: #000;
     border-radius: 10px;
 }
+
+/* banner info */
+#banner {
+    display: none;
+    text-align: center;
+    background: lightblue;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top : 5px dashed black;
+    border-bottom : 5px dashed black;
+    line-height: .9;
+    margin-top: 10px;
+}
+
+#close {
+    padding: 2px;
+    background-color: #000;
+}
