@@ -14,7 +14,6 @@
 
     h1 {
         font-size: 40px;
-        line-height: .6; 
     }
 
     #currentDate {
@@ -30,10 +29,6 @@
     }
     
     /* med layout */
-    .boxes {
-        grid-template-columns: 60% 40%;
-    }
-    
     .hero-image {
         grid-column: 1/3;
     }

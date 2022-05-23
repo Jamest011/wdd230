@@ -48,8 +48,11 @@ header p {
     color: white;
 }
 
+header, h2, h3, h1 {
+    font-family: 'Playfair Display', serif;
+}
+
 h1 {
-    font-size: 24px;
     line-height: .6;   
     text-align: left;
 }
@@ -148,7 +151,7 @@ nav ul.open {display: block;
     position: relative;
  }
 
- .hero-image img, .event img, .news img, .join img, .weather .sky {
+ .hero-image img, .event img, .news img, .join img, .weather {
     object-fit: cover;
     height: 100%;
  }
@@ -180,15 +183,24 @@ nav ul.open {display: block;
     top: 40px;
     right: 40px;
     color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000; 
  }
  
 /* Event Box */
 .box-title {
     position: absolute;
-    color: white;
-    text-shadow: 2px 4px 4px black;
     top: 15px;
     left: 20px;
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
 }
 
 .event p, .news p, .join p {
@@ -203,15 +215,6 @@ nav ul.open {display: block;
     padding: 5px 6px;  
 }
  
-/* Weather Box */
-#rain img {
-    position: absolute;
-    box-shadow: none;
-    width: 100px;
-    left: 50%;
-    margin-left: -50px;
-    bottom: 50px;
-}
 /* Join Box */
 .join {
     display: none;
@@ -238,11 +241,6 @@ nav ul.open {display: block;
 
 .spotlight div:nth-child(3) {
     display: none;
-}
-
-.spotlight p {
-    line-height: 1.1;
-    font-size: .9rem;
 }
 
 .spotlight div {
@@ -300,8 +298,6 @@ footer #lastline {
     font-weight: bold;
     border-top : 5px dashed black;
     border-bottom : 5px dashed black;
-    line-height: .9;
-    margin-top: 10px;
 }
 
 #close {
