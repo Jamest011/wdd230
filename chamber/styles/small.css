@@ -156,6 +156,11 @@ nav ul.open {display: block;
     height: 100%;
  }
 
+ .spotlight img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+
  div .hero-cta, div .join-cta {
     position: absolute;  
     background-color: #8c181b;
