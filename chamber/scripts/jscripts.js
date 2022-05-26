@@ -13,7 +13,9 @@ function toggleMenu() {
 const x = document.getElementById('menuButton');
 x.onclick = toggleMenu;
 
+
 // Mon and Tues banner
+const now = new Date();
 if (now.getDay() === 1 || now.getDay() === 2) {
   document.getElementById("banner").style.display = "block";
 }
