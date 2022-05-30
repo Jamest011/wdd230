@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home page for the Geary Chamber of Commerce."/>
+    <meta name="description" content="Home page for the Geary Chamber of Commerce to 
+    display the businesses in Geary and to help business owners to network. This is 
+    also to help new move-ins discover local busniesses and information about the 
+    town."/>
     <link rel="shortcut icon" href="images/favicon.ico">
     <title>Geary Chamber of Commerce | Homepage</title>
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -19,22 +21,23 @@
 
   <body>
     <header>
-      <div>
-        <a href='index.html'><img id="toplogo" src="images/geary_logo.png" alt="Geary Logo" width="150"/> </a>
-      </div>
+      <picture id="toplogo">
+        <source srcset="images/geary_logo.webp" media="(min-width: 600px)">
+        <img src="images/geary_logo.webp" alt="Geary Logo">
+      </picture>
       <h1>
         Geary<span id="smtitle"><br />Chamber of Commerce</span>
       </h1>
       <div class="social">
         <a href="https://www.facebook.com/" target="blank"
-          ><img src="images/facebook_icon.png" alt="Facebook Icon" width="35"
+          ><img src="images/facebook_icon.webp" alt="Facebook Icon" width="35"
         /></a>
         <a href="https://www.linkedin.com/" target="blank">
-          <img src="images/linkedin_icon.png" alt="LinkedIn Icon" width="35"
+          <img src="images/linkedin_icon.webp" alt="LinkedIn Icon" width="35"
         /></a>
       </div>
+      <button id="menuButton"><span>&#9776;</span><span>X</span></button>
       <nav>
-        <button id="menuButton"><span>&#9776;</span><span>X</span></button>
         <ul id="mainNav">
           <li>
             <a href="index.html" title="Geary Home Page" class="active"
@@ -47,44 +50,76 @@
           <li><a href="#">Contact</a></li>
         </ul>
       </nav>
-      <p>
-        <span id="currentDate"></span>
-      </p>
     </header>
+    <div id="currentDate">
+      <span>Date</span>
+    </div>
     <aside id="banner">
       "🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00 p.m." - - -
       - - &nbsp;<button id="close">&#x274C;</button>
     </aside>
     <main>
       <section class="boxes">
-        <div class="hero-image">
-          <img src="images/canola_field.webp" alt="Canola field" />
+        <div class="hero">
+        <picture class="hero-image">
+          <source srcset="images/hero967.webp" media="(min-width: 600px) and (max-width: 999px)" />
+            <source srcset="images/hero740.webp" media="(min-width: 1000px)" />
+            <img src="images/hero542.webp" alt="Canola field" />
+        </picture>
           <h2 class="welcome">Welcome to Geary!</h2>
           <div class="hero-cta">
             <a href="#">Join the Chamber</a>
           </div>
         </div>
         <div class="event">
-          <img src="images/movie.jpg" alt="movie in the park" />
+          <picture>
+            <source
+              srcset="images/moviesmobile.webp"
+              media="(min-width: 600px) and (max-width: 999px)"
+            />
+            <source
+              srcset="images/movietablet.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/moviedesktop.webp" alt="movie in the park" />
+          </picture>
           <h2 class="box-title">Event</h2>
-        <p>
-            Movie in the park - Join us June 14st to celebrate the start of summer break.
-        </p>
+          <p>Movie in the park - Join us June 14st to celebrate the start of summer break.</p>
         </div>
         <div class="weather">
-          <img class="weather" src="images/weather.png" alt="Geary Weather" />
-          <h2 class="box-title">Weather</h2>
+          <h2>Weather</h2>
+          <div class="info">
+            <p id="weather1"><span id="temp">50</span>&deg;F</p>
+            <p id="weather2">Wind Speed: <span id="windspeed">4</span> mph</p>
+            <p id="weather3">Wind Chill: <span id="windchill"></span></p>
+          </div>
         </div>
         <div class="news">
-          <img src="images/josh.jpg" alt="recent news" />
-          <h2 class="box-title">News Release</h2>
+          <picture>
+            <source
+            srcset="images/joshtablet.webp"
+            media="(min-width: 600px) and (max-width: 999px)"
+          />
+          <source
+            srcset="images/josh.jpg"
+            media="(min-width: 1000px)"
+          />
+          <img src="images/joshmobile.webp" alt="recent news" />
+          </picture>
+          <h2>News Release</h2>
           <p>
             Josh Giddey was drafted to the OKC Thunder! Congratulations to the Josh and his family! 
           </p>
         </div>
         <div class="join">
-          <img src="images/join.jpg" alt="Geary Chamber Building" />
-          <h2 class="box-title">Join</h2>
+          <picture>
+            <source
+              srcset="images/chamberdesktop.webp"
+              media="(min-width: 1000px)"
+            />
+            <img src="images/joinmobile.webp" alt="Geary Chamber Building" />
+          </picture>
+          <h2>Join</h2>
           <div class="join-cta">
             <a href="#">Join the Chamber</a>
           </div>
@@ -93,30 +128,61 @@
         <div class="spotlight">
           <div>
             <h3>Main Street Cafe</h3>
-            <img src="images/cafe.jpg" alt="cafe" />
+            <picture>
+              <source srcset="images/cafetablet.webp" 
+              media="(min-width: 600px) and (max-width: 999px)"
+              />
+              <source
+                srcset="images/cafedesktop.webp"
+                media="(min-width: 1000px)"
+              />
+              <img src="images/cafemobile.webp" alt="cafe" />
+            </picture>
             <p>
                 <b>May 21st</b> Join the town at the Grand opening of Main Street Cafe! The cafe hours are as follows: 6:00 to 9:00 pm Mon-Sat, closed on Sundays. Don't miss out!
             </p>
+            <hr>
             <p>
                 <b><a href="#">www.gearycafe.com</a><br />405-555-5555</b>
             </p>
           </div>
           <div>
             <h3>Geary Live Cattle Auction</h3>
-            <img src="images/cattle.jpg" alt="cattle" />
+            <picture>
+              <source
+                srcset="images/cattletablet.webp"
+                media="(min-width: 600px) and (max-width: 999px)"
+              />
+              <source
+                srcset="images/cattledesktop.webp"
+                media="(min-width: 1000px)"
+              />
+              <img src="images/cattlemobile.webp" alt="cattle" />
+            </picture>
             <p>
                 <b>Geary Livestock Market</b> will be holding it's monthly auction to the public. The auction will take place June 1st at 8:00 am.
             </p>
+            <hr>
             <p>
                 <b><a href="#">www.gearylivestockmarket.com</a><br />405-525-2525</b>
             </p>
           </div>
           <div>
             <h3>Geary Softball</h3>
-            <img src="images/softball.jpg" alt="softball" />
+            <picture>
+              <source
+                srcset="images/softballtablet.webp"
+                media="(min-width: 600px) and (max-width: 999px)"
+              />
+              <source srcset="images/softballdesktop.webp" 
+              media="(min-width: 1000px)" 
+              />
+              <img src="images/softballmobile.webp" alt="softball" />
+            </picture>
             <p>
                 The Geary Buffalo softball team will be playing the Okarche Okras Saturday, May 8th, at 6:00 pm. Come and support Geary's Highschool team!
             </p>
+            <hr>
             <p>
                 <b><a href="#">www.gearyhighsports.com</a><br />405-444-2939</b>
             </p>
@@ -129,7 +195,7 @@
         <div>
           <img
             class="bottom-logo"
-            src="images/geary_logo.png"
+            src="images/geary_logo.webp"
             alt="Geary Logo"
           />
         </div>
@@ -148,5 +214,6 @@
       </p>
     </footer>
     <script src="scripts/jscripts.js"></script>
+    <script src="scripts/windchill.js"></script>
   </body>
 </html>
