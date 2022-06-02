@@ -8,17 +8,18 @@ const loadImages = (image) => {
 
 // check if intersection is supported
 if('IntersectionObserver' in window) {
-    const imgObserver = new IntersectionObserver((items, observer) => {
+    const observer = new IntersectionObserver((items, observer) => {
         items.forEach((item) => {
             if(item.isIntersecting) {
                 loadImages(item.target);
+                observer.unobserve(item.target);
             }
         });
     });
 
 // check image status and load if needed
     imagesToLoad.forEach((img) => {
-        imgObserver.observe(img);
+        observer.observe(img);
     });
 }
 
