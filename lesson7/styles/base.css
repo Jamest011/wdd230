@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(102, 95, 83);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+picture {
+    margin-bottom: 1rem;
+}
+
+img[data-src] {
+    filter: blur(.5em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 2s;
+    max-width: 100%;
+    height: auto;
+}
