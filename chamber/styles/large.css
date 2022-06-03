@@ -68,7 +68,17 @@
         grid-column: 4/5;
         grid-row: 1/4;
         grid-template-columns: 1fr;
-    }  
+    }
+    
+    .spotlight h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .spotlight p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
     
     .spotlight div:nth-child(3) {
         display: block;
