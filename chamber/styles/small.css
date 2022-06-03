@@ -130,14 +130,6 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-#menuButton {
-    grid-column: 4/5;
-    background: transparent;
-    padding: 2px;
-    font-size: 1.3rem;
-    font-weight: bold;
-}
-
 #menuButton span:nth-child(1) {display: block;}
 #menuButton span:nth-child(2) {display: none;}
 
