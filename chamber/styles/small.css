@@ -198,7 +198,7 @@ div .hero-cta, div .join-cta {
 .welcome {
     font-size: 2rem;
 }
- 
+
 /* Event Box */
 h2 {
     position: absolute;
@@ -354,6 +354,7 @@ footer #lastline {
     padding: 2px;
     background-color: #000;
 }
+
 
 /* grid auto fit 
 <div class="grid">
