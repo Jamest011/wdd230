@@ -320,6 +320,10 @@ footer a:hover {
     padding: .2rem;
 }
 
+footer img {
+    width: 234px;
+}
+
 footer a img {
     box-shadow: none;
     width: 20px;
