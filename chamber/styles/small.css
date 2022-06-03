@@ -191,7 +191,7 @@ div .hero-cta, div .join-cta {
     text-decoration: none;
 }
 
-.boxes .hero-image .hero-cta:hover, .boxes .join .join-cta:hover {
+.hero-cta:hover, .join-cta:hover {
     background-color: #000;
 }
 
