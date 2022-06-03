@@ -26,14 +26,3 @@ h1 {
 picture {
     margin-bottom: 1rem;
 }
-
-img[data-src] {
-    filter: blur(.5em);
-}
-
-img {
-    filter: blur(0em);
-    transition: filter 2s;
-    max-width: 100%;
-    height: auto;
-}

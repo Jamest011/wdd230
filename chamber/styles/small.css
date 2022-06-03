@@ -322,7 +322,7 @@ footer a:hover {
 }
 
 footer img {
-    width: 234px;
+    max-width: 234px;
 }
 
 footer a img {
@@ -355,3 +355,12 @@ footer #lastline {
     background-color: #000;
 }
 
+/* grid auto fit 
+<div class="grid">
+<section></section>
+
+css
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+*/
