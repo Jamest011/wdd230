@@ -83,4 +83,12 @@
     .spotlight div:nth-child(3) {
         display: block;
     }
+
+    /* discover page */
+    .gallery img:hover {
+        box-shadow: 10px 10px 10px rgb(255, 255, 255);
+    }
+    .tgallery {
+        font-size: 2rem;
+    }
 }

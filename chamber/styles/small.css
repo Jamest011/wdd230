@@ -15,6 +15,7 @@ body {
 
 main { 
     background: #A46633;
+    padding: 10px;
 }
 
 img { 
@@ -106,7 +107,6 @@ nav ul li a:hover {
 
 #menuButton {
     grid-column: 4/5;
-    background: transparent;
     padding: 6px;
     font-size: 1.5rem;
     font-weight: bold;
@@ -347,13 +347,121 @@ footer #lastline {
     background-color: #000;
 }
 
+/* discover page */
+.tgallery {
+    color: rgb(232, 232, 232);
+    text-shadow: 2px 4px 4px black;
+    text-align: center;
+    padding: 30px 0 15px;
+    font-size: 1.2rem;
+}
 
-/* grid auto fit 
-<div class="grid">
-<section></section>
-
-css
-.grid {
+.gallery-page {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-*/
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 475px;
+    margin: 0 auto;
+}
+
+.gallery p {
+    font-weight: bold;
+    color: #fff;
+}
+
+.gallery img[data-src] {
+	filter: blur(.6em);
+}
+
+.gallery img{
+	filter: blur(0);
+	transition: filter .6s;
+    margin: 10px;
+    border: 10px double black;
+}
+
+.dem-title {
+    grid-row: 1/2;
+    text-align: center;
+    padding-left: 30px;
+}
+
+.explore {
+    border-top: 3px solid white;
+    margin-top: 40px;
+} 
+
+.demographics {
+    padding-left: 40px;
+    grid-row: 2/3;
+}
+
+.demographics p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    text-indent: 30px;
+    padding: 30px;
+}
+
+.tgallery-paragraph {
+    color: #fff;
+}
+
+.visit-distance {
+    text-align: center;
+    border: 2px solid white;
+    padding-bottom: 20px;
+    margin: 20px 0 10px 40px;
+}
+
+/* accordion */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+
+label {
+    display: block;
+    padding: 20px 22px;
+    font-size: 1.25rem;
+    margin: 0 0 1px 0;
+    cursor: pointer;
+    background: #7d4b29;
+    border-radius: 3px;
+    color: #fff;
+    transition: ease 0.5s;
+    text-align: center;
+  }
+  
+  /* label hover color change */
+  label:hover {
+    background: #c89f70;
+    color:#000;
+  }
+  .content {
+    background: #c89f70;
+    padding: 10px 25px;
+    border: 1px solid #a7a7a7;
+    margin: 0 0 1px 0;
+    border-radius: 3px;
+    text-align: center;
+    color: #000;
+  }
+  
+  input + label + .content {
+    display: none;
+  }
+  
+  input:checked + label + .content {
+    display: block;
+  }
+  
+  input[type="checkbox"]  {
+    display: none;
+ }

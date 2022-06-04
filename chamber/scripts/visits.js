@@ -6,7 +6,7 @@ let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
 // first visit or number to display
 if (numVisits !== 0) {
-    visitsDisplay.textContent = 'Welcome back! This is your' + numVisits + 'visit!';
+    visitsDisplay.textContent = 'Welcome back! You have visited here ' + numVisits + ' times!';
 }
 else {
     visitsDisplay.textContent = 'Welcome to Our Quaint Little Town!'
