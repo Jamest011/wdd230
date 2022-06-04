@@ -380,7 +380,6 @@ footer #lastline {
 .gallery img{
 	filter: blur(0);
 	transition: filter .6s;
-    margin: 10px;
     border: 10px double black;
 }
 
@@ -396,7 +395,6 @@ footer #lastline {
 } 
 
 .demographics {
-    padding-left: 40px;
     grid-row: 2/3;
 }
 
@@ -415,7 +413,7 @@ footer #lastline {
     text-align: center;
     border: 2px solid white;
     padding-bottom: 20px;
-    margin: 20px 0 10px 40px;
+    /* margin: 20px 0 10px 40px; */
 }
 
 /* accordion */
