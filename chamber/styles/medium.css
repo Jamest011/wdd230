@@ -14,7 +14,6 @@
 
     h1 {
         font-size: 40px;
-        line-height: .3; 
         padding-left: 15px;
     }
 
@@ -63,7 +62,10 @@
         grid-row: 3/4;
         grid-template-columns: 1fr 1fr;
     }
-    
+    .address {
+        padding-left: 100px;
+    }
+
     /* footer */
     .lower {
         grid-template-columns:  150px 1fr 1fr;
