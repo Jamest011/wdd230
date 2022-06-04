@@ -22,7 +22,7 @@ localStorage.setItem("visits-ls", numVisits);
 // show number of days
 // days since last visit
 if (numMills !== 0) {
-    numDays =Math.round((Date.now() - numMills) / 86400000);
+    numDays = Math.round((Date.now() - numMills) / 86400000);
     todayDisplay.textContent = numDays;
 }
 else {
