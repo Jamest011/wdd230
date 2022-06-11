@@ -105,6 +105,9 @@
         min-width: 213%;
         height: 150px;
     }
+    .container,.container2 {
+        max-width: 700px;
+    }
     .container2 {
         margin-left: 20px;
         margin-top: 0px;

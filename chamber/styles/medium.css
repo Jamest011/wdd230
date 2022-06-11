@@ -95,7 +95,7 @@
     }
     .form-page {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
     main.form-page {
         height: 100%;
