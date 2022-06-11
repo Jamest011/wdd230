@@ -97,5 +97,12 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
+    main.form-page {
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #686C63;
+        padding: 10px;
+    }
+    
 }

@@ -18,7 +18,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&amp;display=swap" rel="stylesheet">
 </head>
-
+<div id="currentDate">
+  <span>Date</span>
+</div>
+<aside id="banner">
+  "🤝🏼Come join us for the chamber meet and greet Wednesday at 7:00 p.m." - - -
+  - - &nbsp;<button id="close">&#x274C;</button>
+</aside>
   <body>
     <header>
       <picture id="toplogo">
@@ -39,14 +45,10 @@
       <button id="menuButton"><span>&#9776;</span><span>X</span></button>
       <nav>
         <ul id="mainNav">
-          <li>
-            <a href="index.html" title="Geary Home Page" class="active"
-              >Home</a
-            >
-          </li>
+          <li><a href="index.html" title="Geary Home Page">Home</a></li>
           <li><a href="discover.html" title="Discover Geary!">Discover</a></li>
           <li><a href="#" title="Geary Directory">Directory</a></li>
-          <li><a href="join.html" title="Join Our Chamber!">Join</a></li>
+          <li><a href="join.html" title="Join Our Chamber!" class="active">Join</a></li>
           <li><a href="#" title="Contact Us Today!">Contact</a></li>
         </ul>
       </nav>
@@ -59,23 +61,23 @@
           <div class="user-details">
             <div class="input-box">
               <span class="details">First Name</span>
-              <input type="text" placeholder="Enter your first name" required>
+              <input type="text" name="firstname" placeholder="Enter your first name" required>
             </div>
             <div class="input-box">
               <span class="details">Last Name</span>
-              <input type="text" placeholder="Enter your last name" required>
+              <input type="text" name="lastname" placeholder="Enter your last name" required>
             </div>
             <div class="input-box">
               <span class="details">Email</span>
-              <input type="email" placeholder="example@mail.com" required>
+              <input type="email" name="email" placeholder="example@mail.com" required>
             </div>
             <div class="input-box">
               <span class="details">Cell Phone Number</span>
-              <input type="tel" placeholder="Enter your cell phone number" required>
+              <input type="tel" name="phonenumber" placeholder="Enter your cell phone number" required>
             </div>
             <div class="input-box">
               <span class="details">Business Name</span>
-              <input type="text" placeholder="Enter your business name">
+              <input type="text" name="businessname" placeholder="Enter your business name">
             </div>
             <div class="input-box">
               <span class="details">Position / Title</span>
@@ -83,7 +85,8 @@
             </div>
             <div class="input-box">
               <span class="details">Describe Your Business</span>
-              <textarea name="business description" maxlength="300" spellcheck="false"></textarea>            </div>
+              <textarea name="business description" maxlength="300" spellcheck="false"></textarea> 
+            </div>
             <input type="hidden" name="dateTime" id="timeStamp" value="Sat Jun 11 2022 02:22:56 GMT-0500 (Central Daylight Time)">
           </div>
           <div class="membership-level">
@@ -116,6 +119,53 @@
           </div>
         </form>
       </div>
+      <section class="container2">
+        <h3>Membership Packages</h3>
+        <div id="member1">
+          <h4>Non-Profit Membership - No Charge:</h4>
+          <hr>
+          <p>
+            This membership is for non-profit organizations and there is no fee.
+          </p>
+        </div>
+        <div id="member2">
+          <h4>Bronze Membership - $500/year:</h4>
+          <hr>
+          <ul>
+            <li>15% discounts on local business services and chamber events</li>
+            <li>10% discount on advertisement</li>
+            <li>10% discount on notary services</li>
+            <li>Access to seminars held by successful business owners in the area </li>
+          </ul>
+        </div>
+        <div id="member3">
+          <h4>Silver Membership - $1,000/year:</h4>
+          <hr>
+          <p>
+            Includes Bronze Membership benefits plus these:
+          </p>
+          <ul>
+            <li>25% discounts on local business services and chamber events</li>
+            <li>25% discount on advertisement</li>
+            <li>50% discount on notary services</li>
+            <li>50% discount on attendance to seminars held by successful business owners in the area</li>
+          </ul>
+        </div>
+        <div id="member4">
+          <h4>Gold Membership - $2,000/year:</h4>
+          <hr>
+          <p>
+            Includes Silver Membership benefits plus these:
+          </p>
+          <ul>
+            <li>50% discounts on local business services and chamber events</li>
+            <li>50% discount on chamber advertisement</li>
+            <li>FREE notary services</li>
+            <li>Attendance to chamber committee meetings to decide on upcoming events and updates in the area</li>
+            <li>FREE attendance to seminars held by successful business owners in the area</li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer>

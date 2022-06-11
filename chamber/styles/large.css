@@ -105,4 +105,11 @@
         min-width: 213%;
         height: 150px;
     }
+    .container2 {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    main.form-page {
+        display: flex;
+    }
 }
