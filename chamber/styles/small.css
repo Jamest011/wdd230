@@ -71,6 +71,7 @@ h3 {
 
 #smtitle {
     font-size: 12px;
+    letter-spacing: 1px;
 }
 
 #currentDate {
@@ -299,6 +300,7 @@ footer section {
     line-height: 1.5rem;
     padding-bottom: 10px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
 footer a {
