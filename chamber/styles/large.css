@@ -91,4 +91,18 @@
     .tgallery {
         font-size: 2rem;
     }
+
+    /* join page */
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: calc(100% / 2 - 20px);
+    }
+    form .membership-level .category {
+        display: flex;
+        width: 80%;
+    }
+    .user-details .input-box textarea {
+        min-width: 213%;
+        height: 150px;
+    }
 }

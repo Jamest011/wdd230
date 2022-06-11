@@ -93,5 +93,9 @@
     .demographics {
         grid-row: 2/3;
     }
-
+    .form-page {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
+
+}

@@ -9,7 +9,7 @@
     also to help new move-ins discover local businesses and information about the 
     town."/>
     <link rel="shortcut icon" href="images/favicon.ico">
-    <title>Geary Chamber of Commerce | (405)297-5555</title>
+    <title>Join | Geary Chamber of Commerce | (405)297-5555</title>
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
@@ -52,8 +52,70 @@
       </nav>
     </header>
 
-    <main>
-        form goes here!
+    <main class="form-page">
+      <div class="container">
+        <div class="title">Membership Application</div>
+        <form action="thankyou.html">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">First Name</span>
+              <input type="text" placeholder="Enter your first name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Last Name</span>
+              <input type="text" placeholder="Enter your last name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="email" placeholder="example@mail.com" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Cell Phone Number</span>
+              <input type="tel" placeholder="Enter your cell phone number" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Business Name</span>
+              <input type="text" placeholder="Enter your business name">
+            </div>
+            <div class="input-box">
+              <span class="details">Position / Title</span>
+              <input type="text" name="position" pattern="[A-Za-z\s\-]{7,}" placeholder="Enter your position or title">
+            </div>
+            <div class="input-box">
+              <span class="details">Describe Your Business</span>
+              <textarea name="business description" maxlength="300" spellcheck="false"></textarea>            </div>
+            <input type="hidden" name="dateTime" id="timeStamp" value="Sat Jun 11 2022 02:22:56 GMT-0500 (Central Daylight Time)">
+          </div>
+          <div class="membership-level">
+            <input type="radio" name="membership" id="dot-1">
+            <input type="radio" name="membership" id="dot-2">
+            <input type="radio" name="membership" id="dot-3">
+            <input type="radio" name="membership" id="dot-4">
+            <span class="membership-title">Membership Level</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="level">Non-Profit</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="level">Bronze Membership</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="level">Silver Membership</span>
+              </label>
+              <label for="dot-4">
+                <span class="dot four"></span>
+                <span class="level">Gold Membership</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Join Now">
+          </div>
+        </form>
+      </div>
     </main>
 
     <footer>
@@ -80,6 +142,5 @@
         </p>
       </footer>
       <script src="scripts/jscripts.js"></script>
-      <script src="scripts/windchill.js"></script>
     </body>
   </html>
