@@ -32,7 +32,7 @@ main a {
 }
   
 main a:hover {
-  color: #ffffff;
+  color: rgb(26, 170, 214);
 }
 main {
   padding: 1rem;
