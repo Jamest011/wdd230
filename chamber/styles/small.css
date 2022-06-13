@@ -193,7 +193,7 @@ div .hero-cta, div .join-cta {
 }
 
 /* Event Box */
-h2 {
+h2.ads, h2.welcome, h2.box-title {
     position: absolute;
     top: 20px;
     left: 25px;
@@ -483,12 +483,14 @@ main.form-page {
 .container, .container2 {
     width: 100%;
     background: #fff;
-    padding: 25px 30px;
+    padding: 15px 30px;
     border-radius: 5px;
 }
 .container .title {
-    font-size: 25px;
+    font-size: 27px;
     position: relative;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 .container .title::before {
     content: '';
@@ -496,7 +498,7 @@ main.form-page {
     left: 0;
     bottom: 0;
     height: 3px;
-    width: 265px;
+    width: 300px;
     background: #A46633;
 }
 .container form .user-details {
@@ -593,23 +595,23 @@ form .button input:hover {
     margin-top: 5px;
 }
 
-.container2 h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
 section ul li{
     margin-left: 30px;
     margin-top: 9px;
 }
-.container2 h4 {
-    margin-top: 20px;
+
+.container2 h3.mem-title {
+    margin-top: 14px;
+    text-align: left;
+}
+.container2 h2 {
+    margin-bottom: 20px;
 }
 .container2 hr {
     background-color: #A46633;
     height: 1px;
     border: none;
-    margin-bottom: 6px;
+    margin-bottom: 3px;
 }
 
 /* thank you page */
