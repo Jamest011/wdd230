@@ -627,3 +627,92 @@ section ul li{
     margin-bottom: 20px;
     font-size: 3rem;
 }
+
+/* directory page */
+#directory-title {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2.3px black;
+}
+
+.groups {
+    display: grid;
+}
+
+.groups img {
+    border: none;
+    box-shadow: none;
+    height: 100px;
+    width: auto;
+}
+
+.groups div {
+    background: white;
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 20px;
+	margin: 10px 5px;
+    line-height: 1.4rem;
+}
+.grid {
+    display: grid;
+  }
+
+.grid-buttons {
+	margin: 1rem auto;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.grid-buttons button {
+	padding: 1rem 1.3rem;
+    background: #686C63;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.grid-buttons button:hover {
+    background: #4b250c;
+    border: .5px solid;
+    cursor: pointer;
+}
+
+.grid div {
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+	margin: 10px 5px;
+    line-height: 1.4rem;
+    border-radius: 5px;
+    letter-spacing: .5px;
+}
+
+.list {
+    display:block;
+}
+
+.list div {
+    padding: 1rem;
+    margin: .5rem;
+}
+
+.list div img {
+    display: none;
+}
+
+.list div:nth-child(even) {
+    background: #686C63;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.list div:nth-child(odd) {
+    background: #ffffff;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
