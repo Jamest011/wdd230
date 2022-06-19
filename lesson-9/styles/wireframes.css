@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #A46633;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+h2 {
+    margin-bottom: 1rem;
+}
+
+body {
+    background: #A46633;
+}
+
+main {
+    text-align: center;
+}
+
+div {
+    margin: 25px;
+}

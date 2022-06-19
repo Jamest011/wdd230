@@ -1,0 +1,76 @@
+{
+    "directory": [
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Non-Profit Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Main Street Cafe",
+        "address": "Address  Geary, OK 73040",
+        "phoneNumber": "405-555-5555",
+        "website": "www.gearycafe.com",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Gold Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Silver Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Silver Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Bronze Membership"
+    },
+    {
+        "logo": "picture here",
+        "companyName": "Insert Company Name",
+        "address": "Address Geary, OK 73040",
+        "phoneNumber": "number",
+        "website": "web-page",
+        "membershipLevel": "Bronze Membership"
+    }
+] 
+}   
