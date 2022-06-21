@@ -2,74 +2,74 @@
     "directory": [
     {
         "logo": "volunteer.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Helping Hands",
+        "address": "1595 Seth Street Geary, OK 73040",
+        "phoneNumber": "405-555-0105",
+        "website": "www.helpinghandsgeary.com",
         "membershipLevel": "Non-Profit Membership"
     },
     {
         "logo": "mainstlogo.webp",
         "companyName": "Main Street Cafe",
-        "address": "Address  Geary, OK 73040",
+        "address": "1244 Main St Geary, OK 73040",
         "phoneNumber": "405-555-5555",
         "website": "www.gearycafe.com",
         "membershipLevel": "Gold Membership"
     },
     {
         "logo": "keebsource.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "KeebSource",
+        "address": "513 NW 1st St Geary, OK 73040",
+        "phoneNumber": "405-589-1470",
+        "website": "keebsource.com",
         "membershipLevel": "Gold Membership"
     },
     {
         "logo": "bank.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Credit Union",
+        "address": "3245 Gregory Lane Geary, OK 73040",
+        "phoneNumber": "405-555-0133",
+        "website": "www.gcu.org",
         "membershipLevel": "Gold Membership"
     },
     {
         "logo": "cattle.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Livestock Market",
+        "address": "1608 Meadow Drive Geary, OK 73040",
+        "phoneNumber": "405-555-0142",
+        "website": "www.gearylivestockmarket.com",
         "membershipLevel": "Gold Membership"
     },
     {
         "logo": "excavation.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Excavation",
+        "address": "4664 Hardesty Street Geary, OK 73040",
+        "phoneNumber": "405-555-0196",
+        "website": "www.excavationneeds.com",
         "membershipLevel": "Silver Membership"
     },
     {
         "logo": "interior.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Interiors",
+        "address": "504 Gnatty Creek Road Geary, OK 73040",
+        "phoneNumber": "405-555-0115",
+        "website": "www.interiorsredone.net",
         "membershipLevel": "Silver Membership"
     },
     {
         "logo": "plumber.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Plumber",
+        "address": "3768 Dogwood Lane Geary, OK 73040",
+        "phoneNumber": "405-555-0189",
+        "website": "www.yourlocalplumber.com",
         "membershipLevel": "Bronze Membership"
     },
     {
         "logo": "gas.webp",
-        "companyName": "Insert Company Name",
-        "address": "Address Geary, OK 73040",
-        "phoneNumber": "number",
-        "website": "web-page",
+        "companyName": "Geary Short Stop",
+        "address": "4198 Romines Mill Road Geary, OK 73040",
+        "phoneNumber": "580-555-0189",
+        "website": "Not Available",
         "membershipLevel": "Bronze Membership"
     }
 ] 
