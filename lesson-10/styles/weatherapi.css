@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    margin: 30px auto;
+    text-align: center;
+    width: 550px;
+    padding: 20px;
+    line-height: 3rem;
+    border: 5px solid white;
+    background-color: #A46633;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+figcaption {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+
+img {
+    width: 60px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+}
