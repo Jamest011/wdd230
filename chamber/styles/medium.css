@@ -104,14 +104,18 @@
         background-color: #686C63;
         padding: 10px;
     }
+
+    .list div {
+        display: flex;
+    }
+
     .groups {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         gap: 30px;
     }
-      
+
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         gap: 30px;
-    }
-    
+    }    
 }

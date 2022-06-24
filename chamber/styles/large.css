@@ -115,4 +115,17 @@
     main.form-page {
         display: flex;
     }
+    .list div {
+        display: flex;
+    }
+    .list h3 {
+        padding-right: 40px;
+        line-height: 1,2rem;
+    }
+    .list p {
+        padding-right: 30px;
+        line-height: 1.2rem;
+    }
+
+    
 }
