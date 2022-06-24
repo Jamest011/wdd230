@@ -229,14 +229,23 @@ h2.ads, h2.welcome, h2.box-title {
 }
 #weather1 {
     font-size: 40px;
-    font-weight: bold;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 #weather2, #weather3 {
     padding: 10px; 
     border-top: 3px solid #ffffff; 
     font-size: 1.2rem;
+}
+#weather-icon{
+    box-shadow: none;
+    margin-top: 20px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
  
 /* Join Box */
