@@ -220,6 +220,8 @@ h2.ads, h2.welcome, h2.box-title {
 
 /* Weather Box */
 .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     color: white;
     text-shadow: 2px 4px 5px black;
     background: black;
@@ -229,7 +231,7 @@ h2.ads, h2.welcome, h2.box-title {
 }
 #weather1 {
     font-size: 40px;
-    padding-top: 25px;
+    padding-top: 80px;
 }
 
 #weather2, #weather3 {
@@ -239,7 +241,6 @@ h2.ads, h2.welcome, h2.box-title {
 }
 #weather-icon{
     box-shadow: none;
-    margin-top: 20px;
 }
 
 figcaption {
