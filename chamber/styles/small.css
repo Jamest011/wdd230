@@ -241,6 +241,8 @@ h2.ads, h2.welcome, h2.box-title {
 }
 #weather-icon{
     box-shadow: none;
+    max-width: 50%;
+    margin-left: 40px;
 }
 
 figcaption {
