@@ -127,5 +127,20 @@
         line-height: 1.2rem;
     }
 
+    /* contact page */
+    form .contact-time .category {
+        display: flex;
+        width: 80%;
+    }
+    .contact-container,.contact-container2 {
+        max-width: 700px;
+    }
+    .contact-container2 {
+        margin-left: 20px;
+        margin-bottom: 422px;
+    }
+    main.contact-page {
+        display: flex;
+    }
     
 }
