@@ -119,7 +119,8 @@
         display: flex;
     }
     .list h3 {
-        padding-right: 40px;
+        width: 240px;
+        text-align: left;
         line-height: 1.2rem;
     }
     .list p {
