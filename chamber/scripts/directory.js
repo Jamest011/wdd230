@@ -25,7 +25,7 @@ fetch(requestURL)
         picture.setAttribute('alt', `${company.companyName}`);
         picture.setAttribute('loading', 'lazy');
        
-        // Change the textContent property of the h2 element to contain the prophet's full name
+        // Change the textContent property of the h2 element to contain the business name
         companyName.innerHTML = `${company.companyName}`;
         address.innerHTML = `${company.address}`;
         phoneNumber.innerHTML = `${company.phoneNumber}`;
