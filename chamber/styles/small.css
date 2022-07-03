@@ -271,6 +271,10 @@ figcaption {
     grid-row: 5/7;   
 }
 
+.spotlights {
+    text-align: center;
+}
+
 h3 {
     text-align: center;
     padding-bottom: 10px;
