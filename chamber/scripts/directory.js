@@ -5,9 +5,8 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);
 
-    const directory = jsonObject['directory'];
+    const directory = jsonObject.directory;
     const groups = document.querySelector('.groups');
 
     directory.forEach(company => {
