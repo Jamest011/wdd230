@@ -1,0 +1,156 @@
+@media only screen and (min-width: 1000px){
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    h1 {
+        font-size: 44px;
+    }
+    header .social {
+        grid-column: 4/5;
+        grid-row: 1/2;
+        justify-content: right;
+        order: 2;
+    }
+    .bottom-logo {
+        box-shadow: none;
+    }
+
+    .address {
+        padding-left: 150px;
+    }
+
+    /* nav */
+    #menuButton { 
+        display: none;
+    }
+   
+    nav ul#mainNav {
+        display:flex;
+        width: 530px;
+        position: unset;
+    }
+
+    nav ul li a {
+        font-size: 1.3rem;
+        border: none;
+        padding: .7rem 1.5rem;
+        color:#000000;
+    }
+
+    #mainNav {
+        background: none;
+        border: none;
+    }
+    
+    /* Home Page */
+    main .page-intro p{
+        margin: 20px 300px;
+    }
+    #home-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .forecast p {
+        grid-column: 2/3;
+    }
+
+    #home-boxes {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .page-intro hr {
+        display: none;
+    }
+
+    .main-divs {
+        border: 1px solid #000000;
+        padding: 30px;
+    }
+
+    #home-boxes p {
+        padding: 20px;
+    }
+
+    /* temples page*/
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 7px;
+        padding: 1rem;
+        justify-items: center;
+    }
+
+    .emphasized { 
+        font-style: italic; 
+    }
+    .emphasize { 
+        font-weight: bold; 
+    }
+    .cards section {
+        text-align: center;
+        padding: 1rem;
+        border: solid 2px black;
+        max-width: 300px;
+    }
+    .cards section * {
+        display: block;
+        margin: 0 auto;
+        padding: 0.25rem;
+    }
+    .cards section img {
+        width: 60%;
+    }
+    
+
+    /* reservation page */
+    form .user-details .input-box {
+        margin-bottom: 15px;
+        width: calc(100% / 2 - 20px);
+    }
+
+    form .membership-level .category {
+        display: flex;
+        width: 50%;
+    }
+    .user-details .input-box textarea {
+        min-width: 213%;
+        height: 150px;
+    }
+    .container,.container2 {
+        max-width: 700px;
+    }
+    .container2 {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    main.form-page {
+        display: flex;
+    }
+    main.contact-page {
+        display: grid;
+    }
+    .list div {
+        display: flex;
+    }
+    .list h3 {
+        width: 240px;
+        text-align: left;
+        line-height: 1.2rem;
+    }
+    .list p {
+        padding-right: 30px;
+        line-height: 1.2rem;
+    }
+
+    /* contact page */
+    form .contact-time .category {
+        display: flex;
+        width: 80%;
+    }
+    .contact-container,.contact-container2 {
+        max-width: 700px;
+    }
+}

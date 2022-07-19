@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content=""/>
+  <link rel="shortcut icon" href="images/favicon.webp">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/medium.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>Home | Temple Inn & Suites</title>
+</head>
+
+<body>
+  <header>
+    <picture id="toplogo">
+      <source srcset="images/logo.png" media="(min-width: 600px)">
+      <img src="images/temple_logo.webp" alt="Temple Inn & Suites Logo">
+    </picture>
+    <h1>
+      Temple<span id="smtitle"><br />Inn & Suites</span>
+    </h1>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="blank"><img src="images/facebook_icon.webp" alt="Facebook Icon" width="35"/></a>
+      <a href="https://www.instagram.com/" target="blank"><img src="images/instagram_icon.webp" alt="Instagram Icon" width="35"/></a>
+    </div>
+    <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+    <nav>
+      <ul id="mainNav">
+        <li><a href="index.html" title="Home">Home</a></li>
+        <li><a href="temples.html" title="Temples We Service">Temples</a></li>
+        <li><a href="services.html" title="Our Services">Services</a></li>
+        <li><a href="reservations.html" title="Reserve A Room!" class="active">Reservations</a></li>
+        <li><a href="contact.html" title="Contact Us Today!">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="currentDate"><span>Date</span></div>
+  <aside id="banner">
+    "Please provide extra time for travels due to the weather when traveling!  &nbsp;<button id="close">&#x274C;</button>
+  </aside>
+
+  <main class="form-page">
+    <div class="container">
+      <div class="title">Reservation Form</div>
+      <form action="thankyou.html">
+        <div class="user-details">
+          <div class="input-box">
+            <label class="details">First Name</label>
+            <input type="text" name="firstname" placeholder="Enter your first name" required>
+          </div>
+          <div class="input-box">
+            <label class="details">Last Name</label>
+            <input type="text" name="lastname" placeholder="Enter your last name" required>
+          </div>
+          <div class="input-box">
+            <label class="details">Email</label>
+            <input type="email" name="email" placeholder="example@mail.com" required>
+          </div>
+          <div class="input-box">
+            <label class="details">Cell Phone Number</label>
+            <input type="tel" name="phonenumber" placeholder="Enter your cell phone number" required>
+          </div>
+          <div class="input-box">
+            <label id="location">Hotel Location: </label><br>
+            <select name="location">
+                <option value="select" selected disabled>Select a Location</option>
+                <option value="Washington D.C.">Washington D.C.</option>
+                <option value="Richmond">Richmond, Virginia</option>
+                <option value="Philadelphia">Philadelphia, Pennsylvania</option>
+                <option value="Manhattan">Manhattan, New York</option>
+            </select>
+        </div>
+        <div class="input-box" id="roomType">
+          <label>Room Type: </label><br>
+          <select name="roomType">
+              <option value="select" selected disabled>Select Room Type</option>
+              <option value="1 King Bed">1 King Bed</option>
+              <option value="2 Queen Beds">2 Queen Beds</option>
+              <option value="1 Bedroom Suite w/Kitchen">1 Bedroom w/Kitchen</option>
+              <option value="2 Bedroom Suite w/Kitchen">2 Bedroom w/Kitchen</option>
+          </select>
+      </div>
+        <div class="input-box">
+          <label id="checkIn">Check In: </label><br>
+          <label>Month</label>
+          <select name="checkInMonth">
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+          </select>
+          <label id="checkInDay">Day</label>
+          <select name="checkInDay">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+          </select>
+      </div>
+      <div class="input-box">
+          <label id="checkOut">Check Out: </label><br>
+          <label>Month</label>
+          <select name="checkOutMonth">
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+          </select>
+          <label>Day</label>
+          <select name="checkOutDay">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+              <option>22</option>
+              <option>23</option>
+              <option>24</option>
+              <option>25</option>
+              <option>26</option>
+              <option>27</option>
+              <option>28</option>
+              <option>29</option>
+              <option>30</option>
+              <option>31</option>
+          </select>
+      </div>
+          <div class="input-box">
+            <label class="details">Special Requests</label>
+            <textarea name="business description" placeholder="Wheelchair accessible, extra pillows, crib, locking safe, etc." maxlength="300" spellcheck="false"></textarea> 
+          </div>
+          <input type="hidden" name="dateTime" id="timeStamp" value="Sat Jun 11 2022 02:22:56 GMT-0500 (Central Daylight Time)">
+          </div>
+        <div class="rooms">
+          <input type="radio" name="room" id="dot-1">
+          <input type="radio" name="room" id="dot-2">
+          <input type="radio" name="room" id="dot-3">
+          <input type="radio" name="room" id="dot-4">
+          <span class="room-title">Number of Rooms</span>
+          <div class="category">
+            <label for="dot-1">
+              <span class="dot one"></span>
+              <span class="level">1</span>
+            </label>
+            <label for="dot-2">
+              <span class="dot two"></span>
+              <span class="level">2</span>
+            </label>
+            <label for="dot-3">
+              <span class="dot three"></span>
+              <span class="level">3</span>
+            </label>
+            <label for="dot-4">
+              <span class="dot four"></span>
+              <span class="level">4</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <section class="lower">
+      <div>
+        <img
+          class="bottom-logo"
+          src="images/logo.png"
+          alt="Temple Inn & Suites Logo"
+        />
+      </div>
+      <div class="address">
+        <h3>Temple Inn & Suites</h3>
+        <p>4800 Montgomery Ln #300 <br />Bethesda, Maryland 20814</p>
+      </div>
+      <div class="web">
+        <p>info@templeinn&suites.com<br />+1 (240) 743-4173</p>
+        <a href="contact.html" target="_blank" rel="noopener noreferrer">☎️ Contact Us</a>
+      </div>
+    </section>
+    <p id="lastline">
+      &copy; <span id="currentYear"></span>Temple Inn & Suites | James Thomas | WDD 230 Final Project | <a href="resources.html"> Resources</a>
+    </p>
+  </footer>
+  <script src="scripts/jscripts.js"></script>
+</body>
+</html>

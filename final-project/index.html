@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Temple Inn & Suites beautiful hotels and conveniently located near Church of Jesus Christ of Latter-Day Saint Temples. 
+    Book directly and quickly for a quick and seamless experience."/>
+    <link rel="shortcut icon" href="images/favicon.webp">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <title>Home | Temple Inn & Suites</title>
+</head>
+
+<body>
+  <header>
+    <picture id="toplogo">
+      <source srcset="images/logo.png" media="(min-width: 600px)">
+      <img src="images/logo.png" alt="Temple Inn & Suites Logo">
+    </picture>
+    <h1>
+      Temple<span id="smtitle"><br />Inn & Suites</span>
+    </h1>
+    <div class="social">
+      <a href="https://www.facebook.com/" target="blank"><img src="images/facebook_icon.webp" alt="Facebook Icon" width="35"/></a>
+      <a href="https://www.instagram.com/" target="blank"><img src="images/instagram_icon.webp" alt="Instagram Icon" width="35"/></a>
+    </div>
+    <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+    <nav>
+      <ul id="mainNav">
+        <li><a href="index.html" title="Home" class="active">Home</a></li>
+        <li><a href="temples.html" title="Temples We Service">Temples</a></li>
+        <li><a href="services.html" title="Our Services">Services</a></li>
+        <li><a href="reservations.html" title="Reserve A Room!">Reservations</a></li>
+        <li><a href="contact.html" title="Contact Us Today!">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="currentDate"><span>Date</span></div>
+  <aside id="banner">
+    "Please provide extra time for travels due to the weather when traveling!  &nbsp;<button id="close">&#x274C;</button>
+  </aside>
+  <main>
+      <div class="page-intro">
+          <h2>Temple Inn & Suites</h2>
+          <p>
+            Travel with us and experience Temples all around the East Coast of the United States. We plan to 
+            expand our communities all over the United States and, soon after, all over the world!
+          </p>
+          <hr>
+      </div>
+      <div class="main-divs" id="home-grid">
+          <div class="spotlight" id="home-boxes">
+            <h2>Washington D.C.</h2>
+              <p>
+                The Washington D.C. Temple was announced on 15 November 1968. The groundbreaking took place on 7 December 1968 and the site dedication took 
+                place on 14 August 1974. However, due to renovations, the Washington D.C. Temple will be rededicated on 14 August 2022. 
+              </p>
+              <hr>
+          </div>
+          <div class="spotlight">
+            <div class="home-cards">
+              <img class="all-images" id="dcTemple" src="images/washingtondctemple.webp" alt=" Temple">
+              <div id="callActionBtn">
+                <a id="res-cta" href="reservations.html">Make a Reservation</a>
+              </div>
+            </div>
+          </div>
+          <div class="spotlight">
+            <div>
+              <div class="weather"></div>
+              <h3>Current Weather</h3>
+              <hr>
+              <img src="images/weather-icons/Status-weather-clouds-icon.png" alt="loading">
+              <p>Currently: <span id="currently"></span></p>
+              <p>Temperature: 89<span id="temperature"></span>°F</p>
+              <p>Humidity: 47<span id="humidity"></span>%</p>
+            </div>
+          </div>
+          <div class="forecast">
+            <section>
+                <img src="images/weather-icons/Status-weather-clouds-icon.png" alt="loading">
+                <h3>Wednesday</h3>
+                <p>Temp:95°F</p>
+            </section>
+            <section>
+                <img src="images/weather-icons/Status-weather-clouds-icon.png" alt="loading">
+                <h3>Thursday</h3>
+                <p>Temp:96°F</p>
+            </section>
+            <section>
+                <img src="images/weather-icons/01d.png" alt="loading">
+                <h3>Friday</h3>
+                <p>Temp:96°F</p>
+            </section>
+            <p>Weather information from <a target="_blank" rel="noopener" href="https://openweathermap.org/"><span>Open Weather</span></a></p>
+        </div>
+
+      </div>
+  </main>
+<footer>
+  <section class="lower">
+    <div>
+      <img
+        class="bottom-logo"
+        src="images/logo.png"
+        alt="Temple Inn & Suites Logo"
+      />
+    </div>
+    <div class="address">
+      <h3>Temple Inn & Suites</h3>
+      <p>4800 Montgomery Ln #300 <br />Bethesda, Maryland 20814</p>
+    </div>
+    <div class="web">
+      <p>info@templeinn&suites.com<br />+1 (240) 743-4173</p>
+      <a href="contact.html" target="_blank" rel="noopener noreferrer">☎️ Contact Us</a>
+    </div>
+  </section>
+  <p id="lastline">
+    &copy; <span id="currentYear"></span>Temple Inn & Suites | James Thomas | WDD 230 Final Project | <a href="resources.html"> Resources</a>
+  </p>
+</footer>
+<script src="scripts/jscripts.js"></script>
+</body>
+</html>
+  
