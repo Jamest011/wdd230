@@ -1,0 +1,32 @@
+{
+    "temples": [
+      {
+        "temple_name": "Washington D.C. Temple",
+        "status": "Closed for Renovations",
+        "death": "27 June 1844",
+        "phone": "(301) 588-0650",
+        "address": "Address: 9900 Stoneybrook Dr Kensington MD 20895, United States",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "temple_name": "Joseph",
+        "status": "23 December 1805",
+        "death": "27 June 1844",
+        "length": 14,
+        "order": 1,
+        "address": "Address: ",
+        "numofchildren": 11,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "temple_name": "Joseph",
+        "status": "23 December 1805",
+        "death": "27 June 1844",
+        "length": 14,
+        "order": 1,
+        "address": "Address: ",
+        "numofchildren": 11,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      }
+    ]
+  }
