@@ -79,33 +79,9 @@
 
     /* temples page*/
     .cards {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 7px;
-        padding: 1rem;
-        justify-items: center;
     }
 
-    .emphasized { 
-        font-style: italic; 
-    }
-    .emphasize { 
-        font-weight: bold; 
-    }
-    .cards section {
-        text-align: center;
-        padding: 1rem;
-        border: solid 2px black;
-        max-width: 300px;
-    }
-    .cards section * {
-        display: block;
-        margin: 0 auto;
-        padding: 0.25rem;
-    }
-    .cards section img {
-        width: 60%;
-    }
     
 
     /* reservation page */

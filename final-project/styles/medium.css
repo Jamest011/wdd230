@@ -69,8 +69,17 @@
 
     /* Temples Page */
 
-    .cards, .home-cards {
+    .home-cards {
         grid-template-columns: 1fr 1fr;
+    }
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .cards section * {
+        display: block;
+        margin: 0 auto;
+        padding: 0.25rem;
     }
 
     /* footer */
