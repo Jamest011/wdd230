@@ -83,7 +83,10 @@
     }
 
     /* Services Page*/
-
+    .grid {
+        display: grid;
+        grid-template-columns: auto-fit, minmax(300px, 2fr);
+    }
     
         
     /* footer */
