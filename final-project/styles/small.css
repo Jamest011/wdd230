@@ -301,11 +301,10 @@ a{
     padding: 0.25rem;
 }
 /* like button */
-.like__btn {
+.like__btn, .like__btn1, .like__btn2, .like__btn3 {
     padding: 10px 15px;
     background: #0080ff;
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
     border-radius: 5px;
     color: #e8efff;
     outline: none;

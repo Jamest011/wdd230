@@ -45,3 +45,69 @@ fetch(requestURL)
         document.querySelector('div.cards').appendChild(card)
     });
   });
+
+const likeBtn = document.querySelector(".like__btn");
+const likeBtn1 = document.querySelector(".like__btn1");
+const likeBtn2 = document.querySelector(".like__btn2");
+const likeBtn3 = document.querySelector(".like__btn3");
+let likeIcon = document.querySelector("#icon");
+let likeIcon1 = document.querySelector("#icon");
+let likeIcon2 = document.querySelector("#icon");
+let likeIcon3 = document.querySelector("#icon");
+count = document.querySelector("#count");
+count1 = document.querySelector("#count1");
+count2 = document.querySelector("#count2");
+count3 = document.querySelector("#count3");
+
+
+let clicked = false;
+let clicked1 = false;
+let clicked2 = false;
+let clicked3 = false;
+
+
+
+likeBtn.addEventListener("click", () => {
+  if (!clicked) {
+    clicked = true;
+    likeIcon.innerHTML = `<i class="fa-solid fa-thumbs-up">`;
+    count.textContent++;
+  } else {
+    clicked = false;
+    likeIcon.innerHTML = `<i class="fa-solid fa-thumbs-up">`;
+    count.textContent--;
+  }
+});
+likeBtn1.addEventListener("click", () => {
+  if (!clicked1) {
+    clicked1 = true;
+    likeIcon1.innerHTML = `<i class="fa-solid fa-thumbs-up1">`;
+    count1.textContent++;
+  } else {
+    clicked1 = false;
+    likeIcon1.innerHTML = `<i class="fa-solid fa-thumbs-up1">`;
+    count1.textContent--;
+  }
+});
+likeBtn2.addEventListener("click", () => {
+  if (!clicked2) {
+    clicked2 = true;
+    likeIcon2.innerHTML = `<i class="fa-solid fa-thumbs-up2">`;
+    count2.textContent++;
+  } else {
+    clicked2 = false;
+    likeIcon2.innerHTML = `<i class="fa-solid fa-thumbs-up2">`;
+    count2.textContent--;
+  }
+});
+likeBtn3.addEventListener("click", () => {
+  if (!clicked3) {
+    clicked3 = true;
+    likeIcon3.innerHTML = `<i class="fa-solid fa-thumbs-up3">`;
+    count3.textContent++;
+  } else {
+    clicked3 = false;
+    likeIcon3.innerHTML = `<i class="fa-solid fa-thumbs-up3">`;
+    count3.textContent--;
+  }
+});

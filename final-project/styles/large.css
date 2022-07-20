@@ -82,7 +82,25 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
-    
+    .like__btn, .like__btn1, .like__btn2, .like__btn3 {
+        padding: 10px 15px;
+        background: #0080ff;
+        font-size: 18px;
+        border-radius: 5px;
+        color: #e8efff;
+        outline: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    main .like-grid {
+        display: flex;
+        justify-content: space-evenly;
+        justify-items: center;
+        align-content: space-evenly;
+        align-items: center;
+    }
+  
 
     /* reservation page */
     form .user-details .input-box {
