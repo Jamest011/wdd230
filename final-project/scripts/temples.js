@@ -1,4 +1,4 @@
-const requestURL = 'https://jamest011.github.io/wdd230/final-project/temples.json'
+const requestURL = 'https://jamest011.github.io/wdd230/final-project/json/temples.json'
 
 fetch(requestURL)
   .then(function (response) {
