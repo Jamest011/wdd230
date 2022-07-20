@@ -300,6 +300,18 @@ a{
     margin: 0 auto;
     padding: 0.25rem;
 }
+/* like button */
+.like__btn {
+    padding: 10px 15px;
+    background: #0080ff;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    border-radius: 5px;
+    color: #e8efff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
   
 /* label hover color change */
 .demographics label:hover {
