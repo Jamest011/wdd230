@@ -49,10 +49,10 @@
     }
     .forecast {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
         padding: 2rem 1rem;
         grid-gap: 10px;
+        max-width: 100%;
     }
     .forecast section {
         display: grid;
@@ -60,7 +60,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         background-color: var(--gray);
         align-items: center;
-        width: 100%;
+        max-width: 100%;
     }
     
     .boxes {

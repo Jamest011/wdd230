@@ -73,6 +73,9 @@
     #home-boxes p {
         padding: 20px;
     }
+    .forecast {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     /* temples page*/
     .cards {

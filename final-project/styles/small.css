@@ -160,7 +160,7 @@ main .page-intro p{
     align-items: center;
 }
 
-.spotlight h2, p {
+.spotlight h2, .spotlight p {
     text-align: center;
     margin-bottom: 10px;
 }
