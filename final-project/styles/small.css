@@ -202,8 +202,11 @@ h3 {
     background-color: #000000;
     color: #ffffff;
 }
+/* services page*/
 
-
+.main-divs ul li{
+    margin:20px 15px;
+}
 
 
 /* Footer */
